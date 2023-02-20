@@ -1,3 +1,4 @@
+#Fake!
 from Music.VulkanInitializer import VulkanInitializer
 from Config.Folder import Folder
 
