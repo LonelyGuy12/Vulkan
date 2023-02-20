@@ -50,6 +50,7 @@ class VulkanInitializer:
                 raise VulkanError(message='Failed to load some Cog')
 
         except VulkanError as e:
+            print(e)
             print(f'[Error Loading Vulkan] -> {e.message}')
 
     def __getTotalCogs(self) -> int:
